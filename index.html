@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/Airbnb Icon.png">
+    <title>Airbnb</title>
+</head>
+<body>
+    <div class="wrapper relative">
+        <header class="bg-white sticky top-0 z-10">
+            <section class="px-5 min-[500px]:px-10 min-[800px]:hidden mt-3">
+                <div><a href="" class="flex items-center justify-center gap-2 font-semibold text-gray-700 border border-gray-300 shadow-[0_8px_10px_rgba(0,0,0,0.1)] py-4 rounded-4xl"><i class="fa-solid fa-magnifying-glass text-[13px]"></i><p>Start your search</p></a></div>
+            </section>
+            <section class="flex justify-between items-center h-20 border-b border-[rgba(0,0,0,0.1)] px-5 min-[500px]:px-10 min-[1440px]:px-20 max-[800px]:hidden">
+                <div class="flex min-[950px]:justify-between items-center lg:w-[63%] gap-5">
+                    <div class="text-red-500 font-bold text-2xl"><a href="" class="flex items-center justify-center gap-2"><i class="fa-brands fa-airbnb text-4xl"></i> <span class="max-lg:hidden">airbnb</span></a></div>
+                    <div>
+                        <ul class="flex justify-center items-center border rounded-3xl border-[rgba(0,0,0,0.2)] shadow-sm hover:shadow-md">
+                            <li class="pl-6 pr-4 my-2 font-semibold border-e border-e-[rgba(0,0,0,0.2)]"><a href="">Anywhere</a></li>
+                            <li class="px-4 my-2 font-semibold border-e border-e-[rgba(0,0,0,0.2)]"><a href="">Any week</a></li>
+                            <li class="pl-4 pr-2 my-2 "><a href="" class="flex gap-4 justify-center items-center"><p class="text-gray-600">Add guests</p> <span class="w-8 h-8 bg-red-500 rounded-full flex justify-center items-center"><i class="fa-solid fa-magnifying-glass text-white text-[13px]"></i></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <ul class="flex justify-center items-center">
+                        <li class="font-semibold py-2 px-3 hover:bg-gray-100 hover:rounded-3xl"><a href="">Airbnb your home</a></li>
+                        <li class="py-2 px-3 hover:bg-gray-100 hover:rounded-3xl"><a href=""><i class="fa-solid fa-globe"></i></a></li>
+                        <li class="border py-2 pl-4 pr-2  ml-2 rounded-3xl border-[rgba(0,0,0,0.2)] hover:shadow-md"><a href="" class="flex justify-center items-center gap-4"><i class="fa-solid fa-bars"></i><span class="w-8 h-8 bg-stone-600 rounded-full flex justify-center items-center"><i class="fa-solid fa-user text-white"></i></span></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="flex justify-between items-center px-5 min-[500px]:px-10 min-[1440px]:px-20 h-20 border-b border-[rgba(0,0,0,0.1)] gap-3">
+                <div class="flex items-center h-full">
+                    <ul class="flex justify-between items-center gap-10">
+                        <li class="border-b-2 py-[17px]"><a href="" class="flex flex-col items-center font-semibold text-[13px]"><img class="w-6 h-6 opacity-70 hover:opacity-100" src="assets/l1.jpg" alt=""><p>Amazing pools</p></a></li>
+                        <li class="border-b-2 border-transparent hover:border-b-stone-300 py-[17px]"><a href="" class="flex flex-col items-center font-semibold text-[13px] opacity-70 hover:opacity-100"><img class="w-6 h-6" src="assets/l48.png" alt=""><p>Icons</p></a></li>
+                        <li class="border-b-2 border-transparent hover:border-b-stone-300 py-[17px] max-[385px]:hidden"><a href="" class="flex flex-col items-center font-semibold text-[13px] opacity-70 hover:opacity-100"><img class="w-6 h-6" src="assets/l13.jpg" alt=""><p>Farms</p></a></li>
+                        <li class="border-b-2 border-transparent hover:border-b-stone-300 py-[17px] max-[857px]:hidden"><a href="" class="flex flex-col items-center font-semibold text-[13px] opacity-70 hover:opacity-100"><img class="w-6 h-6" src="assets/l47.jpg" alt=""><p>Amazing views</p></a></li>
+                        <li class="border-b-2 border-transparent hover:border-b-stone-300 py-[17px] max-[941px]:hidden"><a href="" class="flex flex-col items-center font-semibold text-[13px] opacity-70 hover:opacity-100"><img class="w-6 h-6" src="assets/l27.jpg" alt=""><p>Surfing</p></a></li>
+                        <li class="border-b-2 border-transparent hover:border-b-stone-300 py-[17px] max-[1021px]:hidden"><a href="" class="flex flex-col items-center font-semibold text-[13px] opacity-70 hover:opacity-100"><img class="w-6 h-6" src="assets/l5.jpg" alt=""><p>Castles</p></a></li>
+                        <li class="border-b-2 border-transparent hover:border-b-stone-300 py-[17px] max-[1102px]:hidden"><a href="" class="flex flex-col items-center font-semibold text-[13px] opacity-70 hover:opacity-100"><img class="w-6 h-6" src="assets/l19.jpg" alt=""><p>Rooms</p></a></li>
+                        <li class="border-b-2 border-transparent hover:border-b-stone-300 py-[17px] max-[1181px]:hidden"><a href="" class="flex flex-col items-center font-semibold text-[13px] opacity-70 hover:opacity-100"><img class="w-6 h-6" src="assets/l32.jpg" alt=""><p>Cabins</p></a></li>
+                        <li class="border-b-2 border-transparent hover:border-b-stone-300 py-[17px] max-[1300px]:hidden"><a href="" class="flex flex-col items-center font-semibold text-[13px] opacity-70 hover:opacity-100"><img class="w-6 h-6" src="assets/l52.jpg" alt=""><p>Countrysides</p></a></li>
+                        <li class="border-b-2 border-transparent hover:border-b-stone-300 py-[17px] max-[1478px]:hidden"><a href="" class="flex flex-col items-center font-semibold text-[13px] opacity-70 hover:opacity-100"><img class="w-6 h-6" src="assets/l41.jpg" alt=""><p>treehouse</p></a></li>
+                        <li class=""><a href="" class="flex flex-col items-center font-semibold opacity-70"><span class="inline-flex justify-center items-center h-8 w-8 rounded-full border hover:w-[2.1rem] hover:h-[2.1rem] hover:hover:shadow-[0_3px_25px_rgba(0,0,0,0.25)] transition-all duration-80"><i class="fa-solid fa-angle-right hover:text-[15px]"></i></span></a></li>
+                    </ul>
+                </div>
+                <div class="flex items-center justify-center h-full gap-4 max-[800px]:hidden">
+                    <a href=""><div class="flex items-center justify-center p-3 text-[13px] rounded-2xl border-stone-300 hover:bg-gray-100 transition-all duration-100 hover:border-stone-700 font-semibold gap-3 border"><i class="fa-solid fa-sliders text-[15px]"></i><p>Filters</p></div></a>
+                    <a href=""><div class="flex items-center justify-center px-3 py-[4.4px] text-[13px] rounded-2xl border-stone-300 hover:bg-gray-100 transition-all duration-100 hover:border-stone-700 font-semibold gap-3 border"><p>Display total before taxes</p><i class="fa-solid fa-toggle-off text-4xl text-stone-600"></i></div></a>
+                </div>
+            </section>
+        </header>
+        <main class="bg-white pb-14">
+            <div class="px-5 min-[500px]:px-10 min-[1440px]:px-20">
+                <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-4 items-center justify-center">
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img1.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Jalandghar, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>5.0</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>348 kilometers away</p><p>23-28 Mar</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>5,670</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] left-[89%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a><a href=""><span class="inline-flex justify-center items-center px-3 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><img class="w-7 h-7" src="assets/trophy.png" alt=""><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img2.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Noida, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.2</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>315 kilometers away</p><p>13-22 Apr</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>4,670</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img3.jpg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Delhi, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.5</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>115 kilometers away</p><p>13-27 May</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,670</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img4.jpg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Patna, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.15</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>165 kilometers away</p><p>8-15 Apr</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,690</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img5.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Kochi, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.87</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>265 kilometers away</p><p>13-15 Apr</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,649</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-105 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img6.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Mandi, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.67</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>245 kilometers away</p><p>23-30 Jun</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,649</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img7.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Surat, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.86</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>657 kilometers away</p><p>2-5 Jul</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,449</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+                    
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img8.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Kota, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.26</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>157 kilometers away</p><p>12-15 Aug</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,249</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img9.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Jaipur, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.88</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>300 kilometers away</p><p>12-15 Nov</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>4,249</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img10.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Raipur, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.25</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>390 kilometers away</p><p>18-25 Dec</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>5,000</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img11.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Mohali, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.67</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>890 kilometers away</p><p>18-25 Jan</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>5,800</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img12.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Amritsar, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.45</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>790 kilometers away</p><p>19-24 Jan</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>6,800</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img13.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Maysur, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.25</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>758 kilometers away</p><p>19-24 Feb</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>5,687</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img14.jpg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">New Delhi, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.55</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>50 kilometers away</p><p>19-21 Mar</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>5,647</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img15.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Gurugram, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.57</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>180 kilometers away</p><p>19-29 Apr</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>7,647</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img16.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Hisar, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.52</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>580 kilometers away</p><p>18-25 Jun</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,647</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img17.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Darbhanga, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.12</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>1580 kilometers away</p><p>23-25 jul</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>1,647</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img18.jpg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Madhubani, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.42</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>5580 kilometers away</p><p>3-8 jul</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>2,647</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img19.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Bangluru, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.82</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>7580 kilometers away</p><p>13-18 Nov</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>9,647</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img20.jpg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Shimla, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.0</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>4581 kilometers away</p><p>13-14 Dec</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>2,647</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img21.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Dehradun, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.23</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>4521 kilometers away</p><p>23-27 jan</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,527</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img22.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Kullu, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.53</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>4500 kilometers away</p><p>23-25 jan</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,521</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img23.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Manali, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.92</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>2015 kilometers away</p><p>9-13 jan</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,000</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></a><a href=""><span class="inline-flex justify-center items-center px-3 py-0.5 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img24.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Prayagraj, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.12</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>1254 kilometers away</p><p>10-13 Mar</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,040</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img25.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Kanpur, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.12</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>1352 kilometers away</p><p>10-23 Mar</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>8,040</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img26.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Bikaner, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.72</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>4352 kilometers away</p><p>10-23 Apr</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>5,040</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img27.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Panchkula, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.96</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>452 kilometers away</p><p>15-19 Feb</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>3,040</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img28.jpg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Gokuldham, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>5.0</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>1452 kilometers away</p><p>15-19 Apr</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>7,241</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a><a href=""><span class="inline-flex justify-center items-center px-3 rounded-2xl bg-white font-semibold top-[4%] left-[4%] absolute"><img class="w-7 h-7" src="assets/trophy.png" alt=""><p>Guest favourite</p></span></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img29.jpeg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Kolkata, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.14</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>1442 kilometers away</p><p>15-17 Apr</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>5,211</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+
+                    <li class="relative w-[85vw] sm:w-[40vw] md:w-[25vw] lg:w-[21vw]"><div class=""><img class="aspect-square rounded-xl" src="assets/img30.jpg" alt=""><div class="flex flex-col mt-2">
+                        <div class="flex justify-between items-center font-semibold text-stone-800"><div><a href="">Mandi, India</a></div><div class="flex justify-center items-center gap-1"><i class="fa-solid fa-star text-[11px] pt-1"></i><p>4.88</p></div></div>
+                        <div class="text-stone-600"><a href=""><p>3142 kilometers away</p><p>4-17 Jun</p></a></div>
+                        <div class="flex gap-2"><h2 class="font-semibold"><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i>9,999</h2><p>night</p></div>
+                    </div></div><a href=""><i class="fa-solid fa-heart absolute top-[5%] right-[5%] text-xl text-white transition-all hover:scale-125 duration-80 hover:text-red-600"></i></a></li>
+                </ul>
+            </div>
+        </main>
+        <main class="bg-stone-100 pt-14">
+            <div class="px-5 min-[500px]:px-10 min-[1440px]:px-20">
+                <div class="flex flex-col gap-4 border-b border-[rgba(0,0,0,0.2)]">
+                    <h2 class="font-semibold text-2xl text-stone-800">Inspiration for future getaways</h2>
+                    <ul class="flex gap-8 font-semibold text-stone-600">
+                        <li class="border-b-2 pb-3"><a href="">Popular</a></li>
+                        <li><a href="">Arts & culture</a></li>
+                        <li class="max-[340px]:hidden"><a href="">Outdoors</a></li>
+                        <li class="max-[425px]:hidden"><a href="">Mountains</a></li>
+                        <li class="max-[550px]:hidden"><a href="">Beach</a></li>
+                        <li class="max-[687px]:hidden"><a href="">Unique stays</a></li>
+                        <li class="max-[804px]:hidden"><a href="">Categories</a></li>
+                        <li class="max-[925px]:hidden"><a href="">Things to do</a></li>
+                    </ul>
+                </div>
+                <div class="py-6">
+                    <ul class="grid grid-cols-2 min-[925px]:grid-cols-3 lg:grid-cols-6 gap-4 font-semibold text-stone-800">
+                        <li>
+                            <p><a href="">Canmore</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Flat rentals</a></p>
+                        </li>
+                        <li>
+                            <p><a href="">Benalmádena</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">House rentals</a></p>
+                        </li>
+                        <li>
+                            <p><a href="">Marbella</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Beachfront rentals</a></p>
+                        </li>
+                        <li>
+                            <p><a href="">Mijas</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Flat rentals</a></p>
+                        </li>
+                        <li>
+                            <p><a href="">Prescott</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Cottage rentals</a></p>
+                        </li>
+                        <li>
+                            <p><a href="">Scottsdale</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Rentals with pools</a></p>
+                        </li>
+                        <li>
+                            <p><a href="">Tucson</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Flat rentals</a></p>
+                        </li>
+                        <li class="max-[804px]:hidden">
+                            <p><a href="">Jasper</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Cabin rentals</a></p>
+                        </li>
+                        <li class="max-[804px]:hidden">
+                            <p><a href="">Mountain View</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Cabin rentals</a></p>
+                        </li>
+                        <li class="max-[804px]:hidden">
+                            <p><a href="">Devonport</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Cottage rentals</a></p>
+                        </li>
+                        <li class="max-[804px]:hidden">
+                            <p><a href="">Mallacoota</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Pet-friendly rentals</a></p>
+                        </li>
+                        <li class="max-lg:hidden">
+                            <p><a href="">Ibiza</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Holiday rentals</a></p>
+                        </li>
+                        <li class="max-lg:hidden">
+                            <p><a href="">Anaheim</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Family-friendly rentals</a></p>
+                        </li>
+                        <li class="max-lg:hidden">
+                            <p><a href="">Monterey</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Cabin rentals</a></p>
+                        </li>
+                        <li class="max-lg:hidden">
+                            <p><a href="">Paso Robles</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Cottage rentals</a></p>
+                        </li>
+                        <li class="max-lg:hidden">
+                            <p><a href="">Santa Barbara</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Pet-friendly rentals</a></p>
+                        </li>
+                        <li class="max-lg:hidden">
+                            <p><a href="">Sonoma</a></p>
+                            <p class="text-stone-600 font-normal text-[15px] hover:text-stone-900"><a href="">Pet-friendly rentals</a></p>
+                        </li>
+                        <li>
+                            <p><a class="hover:underline underline-offset-1 decoration-1" href=""><p>Show more<i class="fa-solid fa-chevron-down text-[12px] pl-1"></i></p></a></p>
+                            <p><a href=""></a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="opacity-20">
+            <div class="px-5 min-[500px]:px-10 min-[1440px]:px-20">
+                <div class="border-b border-[rgba(0,0,0,0.2)] flex flex-col min-[950px]:flex-row justify-between min-[950px]:pr-50 py-5 min-[950px]:py-10">
+                    <div class="max-[950px]:pb-5">
+                        <h4 class="font-semibold text-stone-900">Support</h4>
+                        <ul class="flex flex-col gap-2 text-stone-800 pt-2">
+                            <li class="hover:underline decoration-1"><a href="">Help Centre</a></li>
+                            <li class="hover:underline decoration-1"><a href="">AirCover</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Anti-discrimination</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Disability support</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Cancellation options</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Report neighbourhood concern</a></li>
+                        </ul>
+                    </div>
+                    <div class="max-[950px]:border-t max-[950px]:border-b max-[950px]:py-5 max-[950px]:border-[rgba(0,0,0,0.2)]">
+                        <h4 class="font-semibold text-stone-900">Hosting</h4>
+                        <ul class="flex flex-col gap-2 text-stone-800 pt-2">
+                            <li class="hover:underline decoration-1"><a href="">Airbnb your home</a></li>
+                            <li class="hover:underline decoration-1"><a href="">AirCover for Hosts</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Hosting resources</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Community forum</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Hosting responsibly</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Join a free Hosting class</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Find a co-host</a></li>
+                        </ul>
+                    </div>
+                    <div class="max-[950px]:pt-5">
+                        <h4 class="font-semibold text-stone-900">Airbnb</h4>
+                        <ul class="flex flex-col gap-2 text-stone-800 pt-2">
+                            <li class="hover:underline decoration-1"><a href="">Newsroom</a></li>
+                            <li class="hover:underline decoration-1"><a href="">New features</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Careers</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Investors</a></li>
+                            <li class="hover:underline decoration-1"><a href="">Airbnb.org emergency stays</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer class="px-5 min-[500px]:px-10 min-[1440px]:px-20 flex flex-col-reverse min-[1128px]:flex-row justify-between items-start md:items-center">
+                <div class="py-4 text-stone-800 flex justify-center md:items-center min-[1128px]:gap-2 flex-col min-[1128px]:flex-row">
+                    <p class="flex items-center">© 2025 Airbnb, Inc.</p>
+                    <ul class="flex gap-2 flex-wrap">
+                        <li class="flex items-center"><p class="pr-2 pb-2">.</p><a class="hover:underline decoration-1" href="">Privacy</a></li>
+                        <li class="flex items-center"><p class="pr-2 pb-2">.</p><a class="hover:underline decoration-1" href="">Terms</a></li>
+                        <li class="flex items-center"><p class="pr-2 pb-2">.</p><a class="hover:underline decoration-1" href="">Sitemap</a></li>
+                        <li class="flex items-center"><p class="pr-2 pb-2">.</p><a class="hover:underline decoration-1" href="">Company details</a></li>
+                    </ul>
+                </div>
+                <div class="min-[1128px]:py-4 text-stone-800 flex gap-6 font-semibold">
+                    <div class="flex gap-2 justify-center items-center text-sm">
+                        <div><a href=""><i class="fa-solid fa-globe"></i></a></div>
+                        <div class="hover:underline decoration-1"><a href="">Englisg(IN)</a></div>
+                    </div>
+                    <div class="flex gap-1 justify-center items-center text-sm">
+                       <div><a href=""><i class="fa-solid fa-indian-rupee-sign text-[13px]"></i></a></div>
+                       <div class="hover:underline decoration-1"><a href="">INR</a></div>
+                    </div>
+                    <div class="flex gap-4 text-xl max-md:hidden">
+                        <div><a href=""><i class="fa-brands fa-square-facebook"></i></a></div>
+                        <div><a href=""><i class="fa-brands fa-square-twitter"></i></a></div>
+                        <div><a href=""><i class="fa-brands fa-square-instagram"></i></a></div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
